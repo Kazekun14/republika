@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f2ef;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: #212529;
+    transition: all 0.3s;
+}
+
+.sidebar.collapsed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 0.8px white;
+}
+
+.sidebarClose {
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.sidebarClose:hover {
+    color: #a2a6a4;
+}
+
+.sidebarClose:focus {
+    outline: none;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #FF8400;
+    color: #fff;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.content {
+    margin-left: 250px;
+    transition: all 0.3s;
+}
+
+.content.expanded {
+    margin-left: 0;
+}
+
+.headBar {
+    height: 60px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.sidebar.collapsed+.content .menu-toggle {
+    display: block;
+}
+
+.exit {
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: color 0.3s
+}
+
+.exit:hover {
+    color: #a2a6a4;
+}
+
+.exit:focus {
+    outline: none;
+}
+
+.rHeight {
+    height: 200px;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.mAccountinpt {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.myAccountBtn {
+    width: 200px;
+    height: 40px;
+    background-color: #FF8400;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.myAccountBtn:hover {
+    color: #a2a6a4;
+    background-color: brown;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

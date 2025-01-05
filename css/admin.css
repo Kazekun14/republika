@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f2ef;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: #212529;
+    transition: all 0.3s;
+}
+
+.sidebar.collapsed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 0.8px white;
+}
+
+.sidebarClose {
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.sidebarClose:hover {
+    color: #a2a6a4;
+}
+
+.sidebarClose:focus {
+    outline: none;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #FF8400;
+    color: #fff;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.content {
+    margin-left: 250px;
+    transition: all 0.3s;
+}
+
+.content.expanded {
+    margin-left: 0;
+}
+
+.headBar {
+    height: 60px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.sidebar.collapsed+.content .menu-toggle {
+    display: block;
+}
+
+.exit {
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: color 0.3s
+}
+
+.exit:hover {
+    color: #a2a6a4;
+}
+
+.exit:focus {
+    outline: none;
+}
+
+.rHeight {
+    height: 200px;
+    cursor: pointer;
+}
+
+.customerBtn {
+    height: 38px;
+    background-color: #FF8400;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.customerBtn:hover {
+    background-color: brown;
+    color: #a2a6a4;
+}
+
+.customerBtn:focus {
+    outline: none;
+}
+
+.managerBtn {
+    height: 38px;
+    background-color: #212529;
+    border: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.managerBtn:hover {
+    color: #a2a6a4;
+}
+
+.managerBtn:focus {
+    outline: none;
+}
+
+.addcustomerBtn {
+    height: 38px;
+    background-color: #007bff;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.addcustomerBtn:hover {
+    background-color: #0056b3;
+    color: #a2a6a4;
+}
+
+.addcustomerBtn:focus {
+    outline: none;
+}
+
+.searchFrm {
+    height: 50px;
+    width: 50%;
+}
+
+.searchInpt {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+}
+
+.searchBtn {
+    background-color: #212529;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.searchBtn:hover {
+    color: #a2a6a4;
+}
+
+.searchBtn:focus {
+    outline: none;
+}
+
+.avatar {
+    border-radius: 50%;
+}

@@ -1,0 +1,139 @@
+body {
+  background-image: url('../img/386653640_710876487730394_5777943550376382820_n.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-text-stroke: 0.8px white;
+}
+
+.subtitle {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: white;
+}
+
+.box {
+  position: relative;
+  left: 50%;
+  top: 180px;
+  transform: translateX(-50%);
+  width: 480px;
+  height: 420px;
+  background-color: #f3f2ef;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ambtnContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 40px;
+  background-color: lightgray;
+  border-radius: 25px;
+  display: flex;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #313131;
+  border-radius: 25px;
+  transition: left 0.3s ease;
+  z-index: 0;
+}
+
+.amBtn {
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #a2a6a4;
+  cursor: pointer;
+  z-index: 1;
+  transition: color 0.3s
+}
+
+.amBtn.active {
+  color: white;
+}
+
+.Frm {
+  display: flex;
+  flex-direction: column;
+}
+
+.Frm label {
+  display: block;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.Frm input {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+.Frm button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 300px;
+  background-color: #FF8400;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Frm button:hover {
+  color: #a2a6a4;
+  background-color: brown;
+}
+
+.Frm button:focus {
+  outline: none;
+}
+
+.box p {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
