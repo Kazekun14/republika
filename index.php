@@ -12,7 +12,7 @@ $isNotEmpty = isset($_SESSION['r_username']) ? $_SESSION['r_username'] : null;
 		
 		<meta charset="UTF-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Republika Beach Bar</title>
+		<title>Republika</title>
 		<link rel="stylesheet" href="css/index.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
